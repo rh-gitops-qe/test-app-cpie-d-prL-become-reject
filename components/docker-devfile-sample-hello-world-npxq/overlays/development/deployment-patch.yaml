@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: docker-devfile-sample-hello-world-npxq
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh-gitops-bot/build-e2e-yjnh-tenant/test-app-cpie/docker-devfile-sample-hello-world-npxq@sha256:b61d6e0a23fb7200282a3330af6fc7f11c4440f3d99eb3421a9908f97d0cb891
+        name: container-image
+        resources: {}
+status: {}
